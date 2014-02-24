@@ -9,7 +9,6 @@ Currently the mapping, from left to right, is pageup /up key / pagedown (on the 
 
 To set it up on your own, just put the contents of switchtester.ino into your own sketch in the Arduino IDE. Then go Tools> Board> Teensy++ 2.0 and Tools> USB Type> Keyboard + Mouse + Joystick. (You'll need to install the teensy extensions if you haven't already, http://www.pjrc.com/teensy/td_download.html).
 
-
 how it works
 ============
 
