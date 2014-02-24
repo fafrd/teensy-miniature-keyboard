@@ -1,4 +1,4 @@
-//cmstorm switch tester program, run from teensy++ 2.0
+// cmstorm switch tester program, run from teensy++ 2.0
 // top row:    keyOne, keyTwo, keyThree
 // second row: keyFour, keyFive, keySix
 const int keyOne = 11, keyTwo = 38, keyThree = 24;
