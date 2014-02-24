@@ -37,7 +37,6 @@ void keyPress(int pin, uint16_t key)
     }
   }
   Keyboard.release(key);
-  stay = false;
 }
 
 void loop()
