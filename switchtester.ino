@@ -20,21 +20,8 @@ void setup()
 void keyPress(int pin, uint16_t key)
 {
   while(digitalRead(pin) == LOW) {
-    //digitalWrite(ledPin, HIGH);
     Keyboard.press(key);
-    for(int i=0; i<220; i++)
-    {
-      delay(1);
-      if(digitalRead(pin) == HIGH)
-        break;
-    }
-    stay = true;
-    for(int i=0; i<45; i++)
-    {
-      delay(1);
-      if(digitalRead(pin) == HIGH)
-        break;
-    }
+        delay(1);
   }
   Keyboard.release(key);
 }
